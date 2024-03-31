@@ -1,66 +1,65 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom, #a7d4dd 0%, #da9ada 100%); /* Darker gradient */
-  }
-  
-  #content_container {
-    width: 100%;
-    max-width: 400px; /* Adjust width as needed */
-    padding: 20px;
-  }
-  
-  #form_container {
-    background-color: #fff; /* White container */
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 30px;
-  }
-  
-  #form_header {
-    font-family: 'Bowlby One SC', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: #333; /* Dark text for readability */
-    margin-bottom: 30px;
-  }
-  
-  input {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc; /* Light border */
-    border-radius: 4px;
-    outline: none;
-  }
-  
-  #button_container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  button {
-    width: calc(50% - 5px);
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff; /* White text */
-    background-color: #333; /* Darker blue button */
-    cursor: pointer;
-    outline: none;
-  }
-  
-  button:hover {
-    background-color: #222; /* Slightly darker blue on hover */
-  }
-  
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #a7d4dd 0%, #da9ada 100%); /* Darker gradient */
+}
+
+#content_container {
+  width: 100%;
+  max-width: 400px; /* Adjust width as needed */
+  padding: 20px;
+}
+
+#form_container {
+  background-color: #fff; /* White container */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 30px;
+}
+
+#form_header {
+  font-family: 'Bowlby One SC', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Dark text for readability */
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px;
+  outline: none;
+}
+
+#button_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: calc(50% - 5px);
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* White text */
+  background-color: #333; /* Darker blue button */
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #222; /* Slightly darker blue on hover */
+}
